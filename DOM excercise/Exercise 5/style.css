@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    place-items: center;
+    margin: 6%;
+}
+
+#element{
+    background: #ccc;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}    
+
