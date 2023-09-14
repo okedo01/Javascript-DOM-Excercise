@@ -9,9 +9,9 @@ const toggleColor = (isEntering) => {
 };
 
 element.addEventListener("mouseenter", () => {
-  toggleColor((isEntering = true));
+  toggleColor((true));
 });
 
 element.addEventListener("mouseleave", () => {
-  toggleColor((isEntering = false));
+  toggleColor((false));
 });

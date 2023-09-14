@@ -1,6 +1,6 @@
 
-const buttonElem = document.querySelector('#wrapper button');
-const inputElem =  document.querySelector('#wrapper input');
+const buttonElem = document.querySelector('#wrapper').secondElementChild;
+const inputElem =  document.querySelector('#wrapper').firstElementChild;
 
 buttonElem.addEventListener('click', () => {
   const oldText = inputElem.value;

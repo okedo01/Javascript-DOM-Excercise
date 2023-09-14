@@ -1,7 +1,18 @@
 const element = document.getElementById('element');
 
-const changeText = () => {
-  element.innerText = 'Thanks!';
+const changeText = text => {
+  if(text){
+    element.innerText = 'Thanks!';
+  }
+  else{
+    element.innerText = 'Hover Me';
+  }
 };
 
-element.addEventListener('mouseover', changeText);
+element.addEventListener('mouseenter', () => {
+  changeText(true);
+});
+
+element.addEventListener('mouseleave', () => {
+  changeText(false);
+});
