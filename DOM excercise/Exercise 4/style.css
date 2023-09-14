@@ -1,0 +1,11 @@
+button{
+    display: block;
+    background: yellow;
+    padding: 5px 12px;
+}
+
+input{
+    background: #ccc;
+    margin: 12px auto;
+    padding: 5px 12px;
+}
