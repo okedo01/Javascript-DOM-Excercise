@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+#list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px 10px;
+  margin-top: 50px;
+}
+
+#list li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  list-style-type: none;
+}
+
+#list:hover{
+    cursor: pointer;
+}
