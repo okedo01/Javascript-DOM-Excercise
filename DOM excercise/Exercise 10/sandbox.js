@@ -1,11 +1,9 @@
-const list = document.getElementById('list');
-// const listItems  = Array.from(list.children);
+const list = document.querySelector("#list");
 
-// listItems.forEach( items => {
-    items.addEventListener('mousemove', e => {
-       console.log(e.target);
-    })
-// })
+list.addEventListener('click', e => {
+    const items = e.target;
 
-
-
+    if(e.target){
+        e.target.remove();
+    }
+})
